@@ -2,15 +2,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import vk_api
 from datetime import datetime
 import random
-import time
-import get_pictures
-login, password = "89581779173","700000pam2"
-vk_session = vk_api.VkApi(token="b1d6094d3c8cd58620946a28eafe67429c84ecc58ad8e9dc9a447396f67f039001aedab6c83be993c6886")
-
-# token = "ЗдесьЕстьВашТокен"
-# vk_session = vk_api.VkApi(token=token)
-
-session_api = vk_session.get_api()
+imporpi()
 longpoll = VkLongPoll(vk_session)
 
 while True:
